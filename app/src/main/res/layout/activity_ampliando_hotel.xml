@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AmpliandoHotel">
+
+
+    <TextView
+        android:id="@+id/nombreampliadorhotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAIBANA"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <TextView
+        android:id="@+id/loremampliadorhotel"
+        android:layout_width="336dp"
+        android:layout_height="138dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginBottom="48dp"
+        android:text="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final."
+        android:textAlignment="center"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="@+id/botonampliadorhotel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telefonoampliandohotel"
+        app:layout_constraintVertical_bias="0.424" />
+
+    <TextView
+        android:id="@+id/precioampliadorhotel"
+        android:layout_width="129dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="25dp"
+        android:text="150.000$COL"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconohoteles"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/telefonoampliandohotel"
+        android:layout_width="190dp"
+        android:layout_height="32dp"
+        android:layout_marginHorizontal="25dp"
+        android:text="TEL: 3505453867"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/precioampliadorhotel"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ImageView
+        android:id="@+id/iconohoteles"
+        android:layout_width="443dp"
+        android:layout_height="382dp"
+        android:src="@drawable/hoteluno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nombreampliadorhotel"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/botonampliadorhotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESERVAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconohoteles"
+        app:layout_constraintVertical_bias="0.934" />
+
+    <ImageView
+        android:id="@+id/valoracionHotel"
+        android:layout_width="83dp"
+        android:layout_height="73dp"
+        app:layout_constraintBottom_toTopOf="@+id/loremampliadorhotel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconohoteles"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/feli" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
